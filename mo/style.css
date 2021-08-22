@@ -37,7 +37,7 @@
 .imgBox li .ImgA{ display:block; position:relative;min-height:100px}
 .imgBox li .ImgA img{ display:block}
 .imgBox li .ImgA em{ width:27px; display:block; height:17px; position:absolute; bottom:0; left:0; background:url(bg_end.png); background-size: 100%;}
-.imgBox li .ImgA img{ zoom:1; border-radius:5px;}
+.imgBox li .ImgA img{ zoom:1; border-radius:10px;}
 .imgBox li .txtA{color:#000; font-size:12px; display:block; line-height:15px; height:15px; padding-top:5px; overflow:hidden;}
 .imgBox li .info{ font-size:10px; display:block; opacity:0.6; overflow:hidden; height:13px; line-height:13px; margin:4px 0 5px 0;}
 .imgBox .col_2 li{ width:45%; margin:0px 0.3% 0% 3%; float: left;}
@@ -112,7 +112,7 @@
 .UpdateList .itemImg img{ border-radius:2px;}
 .UpdateList .itemImg .wan{ width:27px; display:block; height:17px; position:absolute; bottom:-1px; left:0; background:url(bg_end.png); background-size: 100%;}
 .UpdateList .itemTxt{ height:114px; margin-left:88px; padding-right:10px;}
-.UpdateList .itemTxt .title{height:33px; display: block; color: #000; line-height:33px; font-size:14px; text-overflow:ellipsis; overflow: hidden;}
+.UpdateList .itemTxt .title{height:33px; display: block; padding-right: 80px; color: #000; line-height:33px; font-size:15px; text-overflow:ellipsis; overflow: hidden;}
 .UpdateList .itemTxt .title a{ color: #000}
 .UpdateList .itemTxt .title p{ float:left}
 .UpdateList .itemTxt .title p a{ color: #000}
@@ -182,7 +182,7 @@
 .viewBox{ background:#fff; width:96%; padding:0 2%}
 
 /*分类*/
-.show_c{ position:absolute; background:rgba(0,0,0,.5); width:100%; height:100%; z-index:4; display:none; top:100px;}
+.show_c{ position:absolute; background:rgba(0,0,0,.5); width:100%; height:100%; z-index:4; display:none; top:137px;}
 .dmzj_class{ background:#fff; padding:0 0 8px 0}
 .dmzj_class .Sub_H2{ height:74px; line-height:74px; padding:0 3.125%}
 .dmzj_class .Sub_H2 .Title{ font-size:30px; line-height:74px; padding:0}
