@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+.focus{height:180px; background:url("http://static.u17i.com/mobile/images/focus_bg.jpg");box-shadow: 0px -4px 6px 0px rgba( 14, 15, 14,.5 ); padding-top:10px;}
+#focus{width:318px; height:163px; margin:0 auto; border:1px solid #fff; overflow:hidden;}
+#focus .sliderwrap{width:100%; height:100%; overflow:hidden; position:relative;}
+#focus .sliderwrap ul {height:100%; width:960px; position:absolute; left:0; top:0;}
+#focus .sliderwrap ul.tran {-webkit-transition:0.5s all ease;}
+#focus .sliderwrap ul li a img {width: auto!important;height: 100%!important;}
+#focus .sliderwrap ul li{width:320px; height:100%; position:relative; overflow:hidden; float:left;}
+.mark_title{position: absolute;left: 0;bottom: 0;width: 100%;height: 28px;background-color: rgba(0,0,0,0.5)}
+.title_h1{color: #fff;padding: 5px 7px 0;font-size: 18px;max-width: 80%;display: block;line-height: 18px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;text-shadow: 1px 1px 2px rgba(92,45,25,0.5);}
+#focus .sliderwrap ol{ position:absolute; right:0; bottom:8px;}
+#focus .sliderwrap ol li{width:10px; height:10px; background:#fff; margin:0 10px 0 0; border-radius:50%; float:left; cursor:pointer;}
+#focus .sliderwrap ol li.cur{ background:#83e402;}
+
+.c_mod{box-shadow: 0px -4px 6px 0px rgba( 14, 15, 14,.5 );}
+.tab_title{width:100%; height:35px;}
+.h_bg{ height:9px; overflow:hidden; background:url("http://static.u17i.com/mobile/images/index_bg.png") repeat-x;}
+.tab_title a{width:50%; background:#362d33; line-height:35px; color:#fff; display:inline-block; float:left; text-align:center;}
+.tab_title a.cur{ background:#6eb80b;}
+.comic_con{width:100%; overflow:hidden; display:none;}
+
+.comic_con .shaonian{ border-bottom:4px solid #ea5555; padding-bottom:10px;}
+.comic_con h2{ height:29px;}
+.comic_con h2 span{ display:inline-block; width:120px; height:100%; line-height:30px; text-align:center;}
+.comic_con h2 span.comic_shaonian{background:#ea5555;}
+.comic_con h2.comic_shaonian{ border-bottom:1px solid #ea5555;}
+
+.comic_con .shaonv{ border-bottom:4px solid #f24374; padding-bottom:10px;}
+.comic_con h2 span.comic_shaonv{background:#f24374;}
+.comic_con h2.comic_shaonv{ border-bottom:1px solid #f24374;}
+
+.comic_con .danmei{ border-bottom:4px solid #8974e9;padding-bottom:10px;}
+.comic_con h2 span.comic_danmei{background:#8974e9;}
+.comic_con h2.comic_danmei{ border-bottom:1px solid #8974e9;}
+
+.comic_con .huiben{ border-bottom:4px solid #55abdf;padding-bottom:10px;}
+.comic_con h2 span.comic_huiben{background:#55abdf;}
+.comic_con h2.comic_huiben{ border-bottom:1px solid #55abdf;}
+
+.comic_con h2 a{ display:inline-block; float:right; padding-right:28px; color:#0e100f; line-height:25px }
+.comic_con h2 a .replace{ display:inline-block; width:12px; height:12px; background:url("http://static.u17i.com/mobile/images/replace2.png") no-repeat; background-size:100%; vertical-align:middle;}
+.comic_con h2 a strong{padding-left:5px; font-weight:normal; vertical-align:middle; color:#666;}
+.comic_list{overflow: hidden; margin-top:10px;  height:158px; text-align:center;}
+.comic_list li{overflow: hidden; width:32%; display:inline-block; text-align:center; vertical-align:top;}
+.comic_list li a{ display:block;}
+.comic_list li .txt_url{height:40px; overflow:hidden;}
+.comic_list li .comic_img{width:78px; height:104px; border:1px solid #b1aeb1; display:block; margin:0 auto;}
+.comic_list li span{ display:block; text-align:center; margin-top:3px; height:17px; overflow:hidden; font-size:14px;white-space:nowrap;text-overflow:ellipsis;}
+.comic_list li .comic_title{ color:#000;}
+.comic_list li .comic_author{ color:#999;}
